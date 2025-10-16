@@ -1,3 +1,4 @@
+import Js from '../assets/logos/Js-logo.svg?raw';
 import PhoenixIcon from '../assets/logos/Phoenix-logo.svg?raw';
 import N8nIcon from '../assets/logos/N8n-logo.svg?raw';
 import SupabaseIcon from '../assets/logos/Supabase-logo.svg?raw';
@@ -22,6 +23,14 @@ export const projects = [
 		ctaText: "Get Source < / >",
 		ctaLink: "#",
 		icon: SupabaseIcon
+	},
+	{
+		title: "Realtime Chat Service",
+		techStack: "Phoenix • WebSockets • Redis • Docker",  // Nota: En tu techStack original era "Js • WebSockets • Redis • Docker". Si quieres actualizar esto también, dímelo.
+		description: "Low‑latency chat with channels, presence, and backpressure handling. Includes load tests and horizontal scaling notes.",
+		ctaText: "Live Demo →",
+		ctaLink: "#",
+		icon: Js  
 	},
 	{
 		title: "Realtime Chat Service",
